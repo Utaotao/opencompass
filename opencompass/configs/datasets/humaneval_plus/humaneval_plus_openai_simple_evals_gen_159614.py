@@ -18,7 +18,7 @@ humaneval_plus_infer_cfg = dict(
             ),
         ])),
     retriever=dict(type=ZeroRetriever),
-    inferencer=dict(type=GenInferencer, max_out_len=512))
+    inferencer=dict(type=GenInferencer))
 
 humaneval_plus_eval_cfg = dict(
     evaluator=dict(type=HumanEvalPlusEvaluator),
